@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krzysztof Pawlak - WebDesigner</title>
+    <link rel="stylesheet" href="style/preloader.min.css">
+    <link rel="stylesheet" href="style/style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="rectBox">
+            <svg width="150" height="50" viewBox="0 0 150 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2.5" y="2.5" width="145" height="45" stroke="#C3BEE1" stroke-width="3" />
+            </svg>
+            <p>Loading...</p>
+        </div>
+    </div>
+    <canvas id="background"></canvas>
+
+    <section id="home">
+        <div class="textBlock">
+            <h1>Krzysztof Pawlak <br /> Web Developer</h1>
+
+
+        </div>
+        <a href="#aboutMe" class="goDown">
+            <svg width="50" height="49" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.9375 17L25.5 26.5417L35.0625 17L38 19.9375L25.5 32.4375L13 19.9375L15.9375 17Z"
+                    fill="#F2F2F2" />
+        </a>
+        </svg>
+    </section>
+
+
+    <section id="aboutMe">
+
+        <div class="textBlock animate__animated animate__fadeInUp wow">
+            <h2>Kim jestem?</h2>
+        </div>
+        <div class="textBlock aboutMe animate__animated animate__fadeInUp wow">
+            <i class="fas fa-desktop"></i>
+            <p>Jestem początkującym web-developerem, otwartym na nowe wyzwania, pełnym energii (chociaż z samego rana,
+                nie
+                zawsze) i zapału do nauki nowych rzeczy. Skupiam się na rozwoju umiejętności związanych z Front-endem,
+                jednak Back-end nie pozostaje dla mnie czarną magią, ani przeszkodą nie do pokonania.   
+            </p>
+            <i class="fas fa-business-time"></i>
+            <p>Chciałbym pracować w firmie, w której wciąż mógłbym polepszać swoje umiejętności, podejmować nowe
+                wyzwania
+                oraz w której czułbym się częścią zespołu.
+            </p>
+            <i class="fas fa-code"></i>
+            <p>Aktualnie szukam wyzwań związanych ze światem IT, aktywnie poszukuje i rozwiązuje coraz to nowsze
+                problemy,
+                chcąc uczynić ten świat lepszym miejscem.
+            </p>
+        </div>
+    </section>
+    <section id="mySkills">
+        <div class="textBlock animate__animated animate__fadeInUp wow">
+            <h2>Moje umiejetności</h2>
+        </div>
+        <div class="flexContainer">
+            <div class="flexEl"><i class="fab fa-html5"><svg>
+                        <circle stroke="url(#gradient)" />
+                        <defs>
+                            <linearGradient id="gradient" y1="0" y2="1">
+                                <stop stop-color="#00bc9b" offset="0" />
+                                <stop stop-color="#50ebaf" offset="1" />
+                            </linearGradient>
+                        </defs>
+                    </svg></i></div>
+            <div class="flexEl"><i class="fab fa-sass"><svg>
+                        <circle stroke="url(#gradient)" /></svg></i></div>
+            <div class="flexEl"> <i class="fab fa-js-square"><svg>
+                        <circle stroke="url(#gradient)" /></svg></i></div>
+            <div class="flexEl"><i class="fab fa-figma"><svg>
+                        <circle stroke="url(#gradient)" /></svg></i></div>
+
+
+        </div>
+
+
+    </section>
+    <section id="myProjects"></section>
+    <section id="myHobbies"></section>
+    <section id="contact"></section>
+
+    <div class="animate__animated animate__fadeInUp wow"></div>
+
+    <script src="script/backgroundScript.js"></script>
+    <script src="animation/wow.min.js"></script>
+    <script src="https://kit.fontawesome.com/ab45846060.js" crossorigin="anonymous"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
