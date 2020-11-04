@@ -3,7 +3,7 @@
 }
 
 .preloader {
-  z-index: 1;
+  z-index: 1000;
   transition: opacity 2s;
   background-color: #3F3F3F;
   position: fixed;
