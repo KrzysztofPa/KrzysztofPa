@@ -10,10 +10,12 @@
 #mySkills .flexContainer .flexEl {
   margin: .5em;
   background: rgba(195, 190, 225, 0.8);
-  width: 8em;
-  height: 10em;
+  width: 9em;
+  height: 11em;
   text-align: center;
   border-radius: 1em;
+  position: relative;
+  box-shadow: 0 10px 30px -10px #0f2027;
 }
 
 #mySkills .flexContainer .flexEl i {
@@ -74,22 +76,23 @@
 
 #mySkills .flexContainer .flexEl .starsContainer .star .unFill {
   fill: none;
+  stroke-width: 2;
 }
 
 #mySkills .flexContainer .flexEl .starsContainer .star .star2 {
-  animation-delay: .2s;
+  animation: shootingStars 2.2s linear;
 }
 
 #mySkills .flexContainer .flexEl .starsContainer .star .star3 {
-  animation-delay: .5s;
+  animation: shootingStars 2.5s linear;
 }
 
 #mySkills .flexContainer .flexEl .starsContainer .star .star4 {
-  animation-delay: .7s;
+  animation: shootingStars 2.7s linear;
 }
 
 #mySkills .flexContainer .flexEl .starsContainer .star .star5 {
-  animation-delay: 1s;
+  animation: shootingStars 3s linear;
 }
 
 @keyframes shootingStars {
@@ -145,4 +148,45 @@
   90% {
     transform: translate3d(-5px, -5px, 0);
   }
+}
+
+#mySkills .flexContainer .flexEl .info {
+  border-radius: 1em;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: red;
+  cursor: help;
+  clip-path: circle(10% at 50% 80%);
+  transition: background-color 500ms ease-in-out, clip-path 500ms ease-in-out;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#mySkills .flexContainer .flexEl .info .icon {
+  font-family: 'Montserrat', sans-sherif;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%) translateY(-50%);
+}
+
+#mySkills .flexContainer .flexEl .info h3 {
+  margin: .5em;
+}
+
+#mySkills .flexContainer .flexEl .info p {
+  font-size: .8em;
+}
+
+#mySkills .flexContainer .flexEl .info:hover {
+  background-color: #35d7ec;
+  clip-path: circle(100% at 50% 80%);
+}
+
+#mySkills .flexContainer .flexEl .info:hover > i {
+  color: #35d7ec;
 }

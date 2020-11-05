@@ -55,6 +55,7 @@ body {
             background: rgba(195, 190, 225, .8);
             text-align: center;
             border-radius: 1em;
+            box-shadow: 0 10px 30px -10px #0f2027;
 
             h1,
             h2 {
@@ -88,7 +89,6 @@ body {
     #aboutMe {
         flex-direction: column;
         display: flex;
-
         align-items: center;
 
         .aboutMe {

@@ -51,6 +51,7 @@ body section .textBlock {
   background: rgba(195, 190, 225, 0.8);
   text-align: center;
   border-radius: 1em;
+  box-shadow: 0 10px 30px -10px #0f2027;
 }
 
 body section .textBlock h1,
