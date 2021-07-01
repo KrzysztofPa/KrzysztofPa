@@ -3,7 +3,7 @@ I'm a beginner junior frontend developer,🏡 Living in poland 🏡 💻working 
 
 🌱 I’m studing, also search for work so if you want me to be part of your team, contact me🌱
 
-Recently, I've been focusing on learning wordpress, php and react, i am also open to new challenges.
+Recently, I've been focusing on learning wordpress, php and vue, i am also open to new challenges.
 
 ### 📫 How to reach me 📫:
 <-- If you want to contact, please visit linkedIn
