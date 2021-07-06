@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Krzysztof! 
-I'm a beginner junior frontend developer,🏡 Living in poland 🏡 💻working with JS, HTML & SCSS💻
+I'm a beginner junior frontend developer,🏡 Lived in poland 🏡 💻working with JS, HTML & SCSS💻
 
 🌱 I’m studing, also search for work so if you want me to be part of your team, contact me🌱
 
