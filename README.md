@@ -9,6 +9,8 @@ My full skillset:
 - JS (VUE)
 - PHP (SYMFONY)
 - Figma
+
+
  I am also open to new challenges.
 
 ### 📫 How to reach me 📫:
