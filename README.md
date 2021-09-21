@@ -7,7 +7,7 @@ My full skillset:
 - HTML (5)
 - CSS (SCSS)
 - JS (VUE)
-- PHP (SYMFONY)
+- PHP (SYMFONY/LARAVEL)
 - Figma
 
 
