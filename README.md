@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Krzysztof! 
-I'm a beginner junior webdev developer,🏡 Living in Poland 🏡 💻working with Vue and Symfony💻
+I'm a webdev,🏡 Living in Poland 🏡 💻working with React, Redux and typescript💻
 
 🌱 I’m studing, also search for work so if you want me to be part of your team, contact me🌱
 
@@ -7,7 +7,7 @@ My full skillset:
 - HTML (5)
 - CSS (SCSS)
 - JS (VUE)
-- PHP (SYMFONY)
+- Node.js
 - Figma
 
 
