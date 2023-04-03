@@ -1,8 +1,6 @@
 # 👋 Hi, I'm Krzysztof! 
 I'm a webdev,🏡 Living in Poland 🏡 💻working with React, Redux and typescript💻
 
-🌱 I’m studing, also search for work so if you want me to be part of your team, contact me🌱
-
 My skillset:
 - HTML (5)
 - CSS (SCSS)
