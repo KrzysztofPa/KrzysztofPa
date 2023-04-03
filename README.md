@@ -3,10 +3,10 @@ I'm a webdev,🏡 Living in Poland 🏡 💻working with React, Redux and typesc
 
 🌱 I’m studing, also search for work so if you want me to be part of your team, contact me🌱
 
-My full skillset:
+My skillset:
 - HTML (5)
 - CSS (SCSS)
-- JS (VUE)
+- JS (React.js, Redux, Typescript)
 - Node.js
 - Figma
 
